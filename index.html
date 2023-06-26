@@ -10,64 +10,83 @@
 <body>
     <header>
         <nav class="nitro__pink">
-            <img class = "icon" src="..\assets\logos\coffee-beans-logo-and-footer.svg" alt="coffee bean logo">
-            <h1>
-                <a href = "#nitro" style="color: #393939; text-decoration: none;">nitro</a>
-            </h1>
-            <ul class="listtype__none">
-                <li><a href = "#about">ABOUT</a></li>
-                <li><a href="pages/menu.html", target="_blank">MENU</a></li>
-                <li><a href="pages/menu.html", target="_blank">SHOP NOW</a></li>
-            </ul>   
+            <nav class="header--left">
+                <div>
+                   <p>Travel Site</p> 
+                </div>
+                <div>
+                    <a>Home</a>  
+                    <a>Hawaii</a> 
+                    <a>Iceland</a>
+                    <a>Greece</a>
+                </div>
+            </nav>  
         </nav>
-
-        <section class="nitro__pink">
-            <h1><a id = "about">Nitro Coffee</a></h1>
-            <p>Coffee is a brewed drink prepared from roasted coffee beans,
-                the seeds of berries from certain Coffea species.
-            </p>
-            <a href="pages/menu.html", target="_blank"><button>SHOP NOW</button></a><img src="assets\images\coffeebeans-hero.png" alt="coffee bag">
-        </section>
     </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div>
+            <h1>Travelling comes with endless discoveries</h1>
+            <p>Don't let your dreams be just dreams.Experience the world by booking a vacation with us now.</p>
+            <button>Get Started</button>
+        </div>
+        <div>
+            <img src="assets/Images/hero.png" alt="Hero Image">
+        </div>
+    </section>
     <main>
+        <h2>Recommendations</h2>
+        <div>
+            <img src="assets/Images/hawaii.jpg" src="hawaii">
+            <h3>Hawaii</h3>
+        </div>
 
-        <section class = "products__bg">
-            <h2>Our Products</h2>
-
-            <p><img src="assets\images\coffeebeans.png", alt="coffee beans", class="prod__img"></p>
-            <h3>Coffee Beans</h3>
-            <h3 class="prod__price">$18.99</h3>
-
-            <p><img src="assets\images\coldbrew.png", alt="cold brew", class="prod__img"></p>
-            <h3>Cold Brew</h3>
-            <h3 class="prod__price">$4.99</h3>
-            
-            <p><img src="assets\images\inhousebrew.png", alt="in-house brew", class="prod__img"></p>
-            <h3>In-house brew</h3>
-            <h3 class="prod__price">$2.99</h3>
-
-            <a href="pages/menu.html"><button>VIEW ALL</button></a>
-        </section>
-
-        <section class="discount">
-            <p class="discount__text">Get 20% Off your first order with code:<span class="discount__bold">FirstNitro</span> </p>
-        </section>
+        <div>
+            <img src="assets/Images/iceland.jpg" src="iceland">
+            <h3>Iceland</h3>
+        </div>
+        
+        <div>
+            <img src="assets/Images/greece.jpg" src="greece">
+            <h3>Greece</h3>
+        </div>
     </main>
     <footer class="nitro__pink">
-        <h3>Address</h3>
-        <p>503 Broadway Penthouse</p>
-        <p>New York</p>
+        <div>
+            <h2>Contact</h2>
+            <h4>EMAIL</h4>
+            <p>info@travesite.com</p>
+        </div>
 
-        <h3>Hours</h3>
-        <p><span class="footer__bold">Monday-Friday:</span> 9am-7pm</p>
-        <p><span class="footer__bold">Saturday-Sunday:</span> 10am-5pm</p>
+        <div>
+            <h2>Hours</h2>
+            
+            <div>
+                <h4>MONDAY-FRIDAY</h4>
+                <p>9:00 AM - 5:00 PM</p>
+            </div>
+            
+            <div>
+                <h4>SATURDAY</h4>
+                <p>10:00 AM - 4:00 PM</p>
+            </div>
+            
+            <div>
+                <h4>SUNDAY</h4>
+                <p>Closed</p>
+            </div>
 
-        <h3>Social</h3>
-        <p>
-            <a href="https://www.facebook.com/", target="_blank"><img src="assets\logos\Facebook-Icon.svg", alt="facebook", class="icon"></a>
-            <a href="https://www.yelp.com/", target="_blank"><img src="assets\logos\Yelp-Icon.svg", alt="yelp", class="icon"></a>
-            <a href="https://www.instagram.com/", target="_blank"><img src="assets\logos\Instagram-Icon.svg", alt="instagram", class="icon"></a>
-        </p>
+        </div>
+        
+        <div>
+            <h2>SOCIAL</h2>
+            <br>
+            <img src="assets/Icons/icon-instagram.png" alt="insta">
+            <img src="assets/Icons/icon-facebook.png" alt="facebook">
+            <img src="assets/Icons/icon-twitter.png" alt="twitter">
+
+        </div>
     </footer>
 </body>
 </html>
