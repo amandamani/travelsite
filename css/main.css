@@ -1,0 +1,32 @@
+h3,h2 {
+    text-align: left;
+}
+
+.prod__img {
+    height : 280px;
+    background-color: #F7F7F7;
+}
+
+.products__bg {
+    background-color: #F7F7F7;
+}
+
+.prod__price {
+    color: #5BACC3;
+    text-align: left;
+}
+
+.discount {
+    width: 90%;
+    background-color: #393939;
+    margin-top: none;
+}
+
+.discount__text {
+    font-size: 45px;
+    font-weight: 400;
+    color: #FFF;
+}
+.discount__bold, .footer__bold {
+    font-weight:bold;
+}
