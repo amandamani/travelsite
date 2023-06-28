@@ -7,7 +7,12 @@
   width: 45vw;
 }
 
-.cards__img {
-  height: 30px;
-  width: 20px;
+.cards__img--hawaii {
+  background-image: url("../assets/Images/hawaii.jpg");
+}
+.cards__img--iceland {
+  background-image: url("../assets/Images/iceland.jpg");
+}
+.cards__img--greece {
+  background-image: url("../assets/Images/greece.jpg");
 }/*# sourceMappingURL=main.css.map */

@@ -8,9 +8,17 @@
     }
 }
 
-.cards {
-    &__img {
-        height: 30px;
-        width: 20px;
+.cards{
+    
+    &__img--hawaii{
+        background-image: url("../assets/Images/hawaii.jpg");
+    }
+
+    &__img--iceland{
+        background-image: url("../assets/Images/iceland.jpg");
+    }
+
+    &__img--greece{
+        background-image: url("../assets/Images/greece.jpg");
     }
 }

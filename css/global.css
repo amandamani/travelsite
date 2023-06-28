@@ -12,30 +12,7 @@ nav a {
   display: flex;
   justify-content: space-evenly;
 }
-.cards__img--hawaii {
-  background-image: url("../assets/Images/hawaii.jpg");
-  margin: 1rem 0;
-  padding: 3rem 0;
-  text-align: center;
-  background-color: #eeeeee;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
-  width: 15rem;
-  height: 15rem;
-}
-.cards__img--iceland {
-  background-image: url("../assets/Images/iceland.jpg");
-  margin: 1rem 0;
-  padding: 3rem 0;
-  text-align: center;
-  background-color: #eeeeee;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
-  width: 15rem;
-  height: 15rem;
-}
-.cards__img--greece {
-  background-image: url("../assets/Images/greece.jpg");
+.cards__item {
   margin: 1rem 0;
   padding: 3rem 0;
   text-align: center;
