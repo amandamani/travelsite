@@ -1,0 +1,16 @@
+.hero {
+    display: flex;
+    margin: 2rem;
+
+    img {
+        height: 45vh;
+        width: 45vw;
+    }
+}
+
+.cards {
+    &__img {
+        height: 30px;
+        width: 20px;
+    }
+}

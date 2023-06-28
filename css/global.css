@@ -1,50 +1,47 @@
-
-body {
-    font-family: "Open Sans";
-    font-weight: 400;
-    background-color: #FFF;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5rem;
+}
+nav a {
+  margin: 0.2rem;
 }
 
-h1,h2{
-    color : #393939;
-    font-size: 60px;
-    font-weight: 300;
+.cards {
+  display: flex;
+  justify-content: space-evenly;
 }
- 
-h2,h3 {
-    text-align: center;
-    color : #393939;
+.cards__img--hawaii {
+  background-image: url("../assets/Images/hawaii.jpg");
+  margin: 1rem 0;
+  padding: 3rem 0;
+  text-align: center;
+  background-color: #eeeeee;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  width: 15rem;
+  height: 15rem;
 }
-
-.nav__heading, h3 {
-    font-size: 33px;
-    font-weight:300;
+.cards__img--iceland {
+  background-image: url("../assets/Images/iceland.jpg");
+  margin: 1rem 0;
+  padding: 3rem 0;
+  text-align: center;
+  background-color: #eeeeee;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  width: 15rem;
+  height: 15rem;
 }
-
-.icon{
-    width : 50px;
-}
-
-.listtype__none {
-    list-style-type: none;
-}
-
-.nitro__pink {
-    background-color: #FFF0ED ;
-}
-
-p {
-    font-size : 18px;
-    font-weight: 400;
-    color: #393939;
-}
-
-button {
-    background-color: #5BACC3;
-    color: #FFF;
-    padding: none;
-    border-color: #5BACC3;
-    font-size: 21px;
-    font-weight: 400;
-}
-
+.cards__img--greece {
+  background-image: url("../assets/Images/greece.jpg");
+  margin: 1rem 0;
+  padding: 3rem 0;
+  text-align: center;
+  background-color: #eeeeee;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  width: 15rem;
+  height: 15rem;
+}/*# sourceMappingURL=global.css.map */
