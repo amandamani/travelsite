@@ -1,14 +1,30 @@
 .hero {
     display: flex;
-    margin: 2rem;
+    padding: 2rem;
+    justify-content: space-around;
+    background-color: #FEFAF5;
 
     img {
         height: 45vh;
-        width: 45vw;
+        width: 25vw;
+    }
+}
+
+main{
+    h2{
+        position: relative;
+        left: 50px;
     }
 }
 
 .cards{
+
+    h3 {
+        position: relative;
+        top: 250px;
+        left: 75px;
+        color: white;
+    }
     
     &__img--hawaii{
         background-image: url("../assets/Images/hawaii.jpg");
