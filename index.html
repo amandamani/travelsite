@@ -9,15 +9,15 @@
 </head>
 <body>
     <header>
-        <nav class="header--left">
+        <nav>
             <div>
-                <p>Travel Site</p> 
+                <h3 class="wordmark">Travel Site</h3> 
             </div>
             <div>
-                <a>Home</a>  
-                <a>Hawaii</a> 
-                <a>Iceland</a>
-                <a>Greece</a>
+                <a class="active" href="index.html">Home</a>  
+                <a href="pages/hawaii.html">Hawaii</a> 
+                <a href="pages/iceland.html">Iceland</a>
+                <a href="pages/greece.html">Greece</a>
             </div>
         </nav>  
     </header>
@@ -25,7 +25,7 @@
     <!-- Hero Section -->
     <section class="hero">
         <div>
-            <h1>Travelling comes with endless discoveries</h1>
+            <h1 class="slogan">Travelling comes with endless discoveries</h1>
             <p>Don't let your dreams be just dreams.Experience the world by booking a vacation with us now.</p>
             <button>Get Started</button>
         </div>
@@ -37,20 +37,20 @@
         <h2>Recommendations</h2>
         <section class="cards">
 
-            <div class="cards__item cards__img--hawaii">
+            <a href="pages/hawaii.html"><div class="cards__item cards__img--hawaii">
                 <!-- <img src="assets/Images/hawaii.jpg" alt="hawaii" class="card__image"> -->
                 <h3>Hawaii</h3>
-            </div>
+            </div></a>
     
-            <div class="cards__item cards__img--iceland">
+            <a href="pages/iceland.html"><div class="cards__item cards__img--iceland">
                 <!-- <img src="assets/Images/iceland.jpg" alt="iceland" class="card__image"> -->
                 <h3>Iceland</h3>
-            </div>
+            </div></a>
             
-            <div class="cards__item cards__img--greece">
+            <a href="pages/greece.html"><div class="cards__item cards__img--greece">
                 <!-- <img src="assets/Images/greece.jpg" alt="greece" class="card__image"> -->
                 <h3>Greece</h3>
-            </div>
+            </div></a>
 
         </section>
         
@@ -85,6 +85,8 @@
         <div>
             <h2>Social</h2>
             <div class ="more__info">
+                <br>
+                <br>
                 <br>
                 <img src="assets/Icons/icon-instagram.png" alt="insta">
                 <img src="assets/Icons/icon-facebook.png" alt="facebook">

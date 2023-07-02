@@ -12,11 +12,12 @@
 main h2 {
   position: relative;
   left: 50px;
+  color: #335576;
 }
 
 .cards h3 {
   position: relative;
-  top: 250px;
+  top: 300px;
   left: 75px;
   color: white;
 }

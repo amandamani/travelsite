@@ -6,31 +6,46 @@ body {
     margin: 0px;
 }
 
+a{
+    &:link {
+        text-decoration: none;
+    }
+}
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0.5rem;
+    margin: 0rem 0.5rem;
+    background-color: white;
+    .active {
+        text-decoration: solid underline #DB7A4E 4px;
+        text-underline-offset: 0.5rem; 
+    }
 
     a {
         margin: 0.2rem;
+        color:#335576;
     }
 }
+
+
 
 .cards{
     display: flex;
     justify-content: space-evenly;
-    margin: 0rem 8rem;
+    margin: 0rem 6rem;
 
 
     &__item{
 
-        margin: 1rem 0;
-        padding: 3rem 0;
+        margin: 0rem;
+        padding: 0rem;
         text-align: center;
         background-size: 17rem 22rem;
         border-radius: 5px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+        box-shadow: 0px 4px 4px rgba(black, 0.2);
+        border: 1px solid rgba(black, 0.2);
         width: 17rem;
         height: 22rem;
     }
@@ -43,12 +58,36 @@ main {
 footer {
     display: flex;
     justify-content: space-evenly;
-    margin: 8rem 8rem 0rem;
+    padding: 2rem 8rem 0rem;
+    background-color: #FEFAF5;
 
     .more__info {
         display: inline-block;
         margin-right: 1rem;
+    };
+
+    img {
+        height: 30px;
+        width: 25px;
+        margin-right: 3rem;
+    };
+
+    h2,p{
+        color:#335576;
+    };
+
+    h4 {
+        color: #DB7A4E;
     }
 
 
+}
+
+.wordmark {
+    color: #335576 ;
+    margin-left: 3rem;
+}
+
+.slogan {
+    color: #335576 ;
 }
