@@ -14,6 +14,10 @@ a{
     &:link {
         text-decoration: none;
     }
+    &:hover {
+        text-decoration: solid underline #DB7A4E 4px;
+        text-underline-offset: 0.5rem;
+    }
 }
 
 nav {
@@ -51,7 +55,7 @@ li{
     display: flex;
     justify-content: space-evenly;
     margin: 0rem 6rem;
-
+    
 
     &__item{
 
@@ -64,6 +68,13 @@ li{
         border: 1px solid rgba(black, 0.2);
         width: 17rem;
         height: 22rem;
+    }
+
+    a{
+        &:hover{
+            border: 7px solid #DB7A4E;
+            border-radius: 5px;
+        }
     }
 }
 
