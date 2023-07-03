@@ -35,17 +35,17 @@ nav {
         margin: 0.2rem;
         color:#335576;
     }
-    
-    li{
-        list-style-type: none;
-    }
-    ul{
-        display: inline;
-        padding-left: 1rem;
-    }
 }
 
+ul{
+    padding: 0rem;
+}
 
+li{
+    list-style-type: none;
+    display: inline;
+    padding-left: 0.5rem;
+}
 
 .cards{
     display: flex;
