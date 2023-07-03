@@ -18,6 +18,7 @@
 
 main {
   margin: 0rem;
+  padding-top: 5rem;
   height: 130vh;
 }
 main h1 {
@@ -35,7 +36,7 @@ main h1 {
 .cards__item {
   background-color: white;
 }
-.cards__item h4 {
+.cards__item h3 {
   border-bottom: 3px solid black;
   margin: 1rem;
   font-weight: bold;

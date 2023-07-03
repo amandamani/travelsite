@@ -18,6 +18,7 @@
 }
 main {
     margin: 0rem;
+    padding-top: 5rem;
     height: 130vh;
     h1 {
         position: relative;
@@ -34,7 +35,7 @@ main {
 
     &__item {
         background-color: white;
-        h4 {
+        h3 {
             border-bottom: 3px solid black;
             margin: 1rem;
             font-weight: bold;
