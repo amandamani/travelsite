@@ -24,6 +24,7 @@ main h1 {
   font-size: 5rem;
   margin: 0rem;
   color: white;
+  width: 500px;
 }
 
 .cards {

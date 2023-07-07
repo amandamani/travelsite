@@ -28,8 +28,9 @@ nav {
   background-color: white;
   position: fixed;
   top: 0;
-  width: 1280px;
+  width: 100%;
   overflow: hidden;
+  z-index: 5;
 }
 nav .active {
   -webkit-text-decoration: solid underline #DB7A4E 4px;
